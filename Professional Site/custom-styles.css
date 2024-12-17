@@ -1,0 +1,72 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom Background Color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c7f3eb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgb(23, 21, 21);
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-family: 'Georgia', serif;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+/* Custom Image */
+.custom-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Lists */
+section h2 {
+    font-family: 'Tahoma', sans-serif;
+    margin: 20px 0 10px;
+}
+
+ol, ul {
+    margin-left: 30px;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Links */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #0066cc;
+    color: white;
+}
